@@ -1,0 +1,65 @@
+@media (max-width: 575.98px) {
+            #Sobre{
+            	font-size: 12px;
+            }
+            .btn {
+            	font-size: 10px;
+            }
+        }
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	         #Sobre{
+	         	font-size: 13px;
+            }
+            .btn {
+            	font-size: 13px;
+            }
+        }
+
+@media (min-width: 1200px) {
+            #Sobre{
+                font-size: 20px;
+            }
+        }
+
+#Cabecalho{
+	height: 250px;
+	background: linear-gradient(purple,#dc3545);
+	color: white;
+	font-size: 80px;
+	text-align: center;
+	font-weight: 800
+}
+
+#Home{
+	height: 400px;
+	text-align: center;
+	font-size: 30px;
+	color: #dc3545;
+	padding: 10px;
+}
+
+#Sobre{
+	height: 400px;
+	text-align: center;
+	color: #dc3545;
+	padding: 10px;
+}
+
+#TopicosLaterais{
+	margin-top: 100px;
+	padding:10px;
+
+}
+
+#Curriculo{
+	margin-bottom: 100px;
+}
+
+#Contato{
+	height: 400px;
+	text-align: center;
+	color: #dc3545;
+	padding: 10px;
+}

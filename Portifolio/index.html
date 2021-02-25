@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+  <head>
+
+    <title>Renan  Oliveira - Desenvolvimento Fullstack</title>
+
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Estilo css-->
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+  </head>
+
+  <body>
+    <div id="Cabecalho">Renan Oliveira</div>
+    <nav class="navbar sticky-top navbar-expand-sm navbar-dark bg-danger">
+
+        <!-- Logo -->
+        <a href="" class="navbar-brand"></a>
+
+        <!-- Menu Hamburger-->
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navegacao">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- navegacao -->
+        <div class="collapse navbar-collapse" id="navegacao">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">Sobre</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">Projetos</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">Currículo</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">Contatos</a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+
+    <!--Conteudos-->
+    <div class="container">
+        <!-- Home -->
+        <div class="row align-items-center"id="Home">
+            <p>
+                Site desenvolvido com o objetivo de publicar conteúdos de portifólio, disponibilizar projetos, acesso ao currículo e contato.
+            </p>
+        </div>
+        <!-- /Home -->
+        <!-- Sobre -->
+        <div class="row align-items-center text-md-" id="Sobre">
+            <p>
+                Sou Bacharelado em Engenharia de Controle e Automação e estou cursando Graduação em Análise e Desenvolvimento de Sistemas. Tenho conhecimentos em Front End com HTML5, CSS3, Flexbox, Bootstrap, Design Responsivo, Javascript e Photoshop. E Linguagens de Programação como Python, C, C++, C#, PHP7, Banco de Dados My SQL e Certificações em White Belt em Lean Six Sigma e Scrum Fundamentals Certified.
+                <br><br>
+                Possuo Inglês nível intermediário e Espanhol nível básico.
+                <br><br>
+                Em minha experiência profissional, atualmente atuo como Eletricista de Manutenção. Atuei em outra empresa como Coordenador de Laboratórios de Engenharia, Arquitetura e Ciência da Computação onde tive a oportunidade de ter um contato com a área de desenvolvimento, Encarregado de Serviços, Assistente de Almoxarifado e Inspetor.
+                <br><br>
+                Dentre minhas características profissionais destacam-se o perfeccionismo, dedicação, facilidade de interação com o grupo, responsabilidade e aperfeiçoamento continuo.
+            </p>
+        </div>
+        <!-- /Sobre -->
+        <!-- Projetos -->
+        <div class="row" id="Projetos">
+        </div>
+        <!-- /Projetos -->
+        <!-- Curriculo -->
+        <div class="row justify-content-center" id="Curriculo">
+            <div class="btn-group" id="TopicosLaterais">
+                <button class="btn btn-outline-danger" type="button" onclick="InfoPessoais()">Informações Pessoais
+                </button>
+                <button class="btn btn-outline-danger" type="button" onclick="Formacao()">Formação Acadêmica
+                </button>
+                <button class="btn btn-outline-danger" type="button" onclick="Conhecimentos()">Conhecimentos
+                </button>
+                <button class="btn btn-outline-danger" type="button" onclick="HistProf()">Histórico Profissional
+                </button>
+            </div>
+            <img id="image" src="imagens/MeuIframe.jpg" class="img-fluid">
+        </div>
+        <!-- /Curriculo -->
+        <!-- Contatos --> 
+        <div class="row justify-content-center" id="Contato">
+            <p>Contatos</p>
+        </div>
+        <!-- /Contatos --> 
+    </div>
+    <script type="text/javascript">
+        function InfoPessoais(){
+            document.getElementById("image").src = "imagens/InformacoesPessoais.jpg"
+        }
+    </script>
+    <script type="text/javascript">
+        function Formacao(){
+            document.getElementById("image").src = "imagens/FormacaoAcademica.jpg"
+        }
+    </script>    
+    <script type="text/javascript">
+        function Conhecimentos(){
+            document.getElementById("image").src = "imagens/Conhecimentos.jpg"
+        }
+    </script>
+    <script type="text/javascript">
+        function HistProf(){
+            document.getElementById("image").src = "imagens/HistoricoProfissional.jpg"
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
