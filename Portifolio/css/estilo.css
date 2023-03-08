@@ -40,7 +40,7 @@
 	padding: 10px;
 }
 
-#Sobre{
+#about{
 	height: 400px;
 	text-align: center;
 	color: #dc3545;
@@ -53,12 +53,11 @@
 
 }
 
-#Curriculo{
+#resume{
 	margin-bottom: 100px;
 }
 
-#Contato{
-	height: 400px;
+#contact{
 	text-align: center;
 	color: #dc3545;
 	padding: 10px;
